@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indris Shukri | Front-End Web Developer</title>
+    <meta name="description" content="Indris Shukri, front-end developer building fast, responsive websites for small businesses. Open to freelance projects.">
+    <meta name="theme-color" content="#080808">
+    <meta property="og:title" content="Indris Shukri | Front-End Developer">
+    <meta property="og:description" content="Fast, mobile-friendly websites for small businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/profile.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index21.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <!--HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#home" class="logo" aria-label="Indris Shukri, home">
+                Indris
+            </a>
+            <!-- CSS-only mobile menu -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle__input">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Open or close menu">
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+            </label>
+            <nav class="navbar" aria-label="Main navigation">
+                <ul class="navbar__list">
+                    <li><a href="#home" class="navbar__link">Home</a></li>
+                    <li><a href="#about" class="navbar__link">About</a></li>
+                    <li><a href="#services" class="navbar__link">Services</a></li>
+                    <li><a href="#works" class="navbar__link">Projects</a></li>
+                    <li><a href="#process" class="navbar__link">Process</a></li>
+                      <li class="navbaritem--mobile"><a href="#contact" class="navbar__link">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="header__button">Let's Talk</a>
+        </div>
+    </header>
+    <main id="main">
+        <!--  HERO -->
+        <section class="hero" id="home">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <p class="hero__tag">
+                        Front-End Developer . Open to freelance work
+                    </p>
+                    <h1 class="hero__title">
+                        I build fast, mobile-friendly websites for small businesses.
+                    </h1>
+                    <p class="hero__description">
+                        I turn your ideas into clean, responsive websites that work
+                        on every device. Based in Ethiopia (UTC+3), I communicate
+                        clearly and keep you updated at every step.
+                    </p>
+                    <div class="hero__actions">
+					   <a href="#contact" class="button">Start a Project</a>
+                        <a href="#works" class="button button--outline">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="images/profile.jpg"
+                         alt="Portrait of Indris Shukri"
+                         width="400" height="500"
+                         fetchpriority="high">
+                </div>
+            </div>
+        </section>
+ <!--  ABOUT  -->
+        <section class="section section--alt" id="about">
+            <div class="container about__container">
+                <div class="about__content">
+                    <p class="section__label">About Me</p>
+                    <h2 class="section__title">A developer who cares about clear, working websites</h2>
+                    <p class="section__text">
+                        I'm Indris Shukri, a front-end developer and Computer science major based in Ethiopia.
+                         I build responsive websites with HTML,
+                        CSS and JavaScript, and I focus on clean code, readable design
+                        and pages that load quickly.
+                    </p>
+                    <p class="section__text">
+                        I run an independent web development practice where I put extra care into
+                        every project and communicate openly. You'll always know what I'm
+                        working on and what comes next.
+                    </p>
+                </div>
+                <ul class="about__facts">
+                    <li><strong>Based in</strong> Ethiopia (UTC+3)</li>
+                    <li><strong>Languages</strong> English, Amharic and Afaan Oromoo</li>
+                    <li><strong>Focus</strong> Responsive front-end websites</li>
+                    <li><strong>Status</strong> Available for new projects</li>
+                </ul>
+            </div>
+        </section>
+        <!--  SERVICES -->
+        <section class="section" id="services">
+            <div class="container">
+                <p class="section__label">Services</p>
+                <h2 class="section__title">What I can build for you</h2>
+
+                <div class="grid grid--3">
+                    <article class="card">
+                        <h3>Landing Pages</h3>
+                        <p>A focused one-page site that explains your offer, capture leads and get visitors to contact you.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Business Websites</h3>
+                        <p>A clean multi-page site for your services, team and contact details, built for phones first to reach customers anywhere.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Portfolio Websites</h3>
+                        <p>A professional personal site for consultants, freelancers, and creatives who want to showcase their work and attract clients.</p>
+                    </article>
+                </div>
+				<div style="margin-top: 40px; text-align:center;">
+				<p style="color:var(--text-muted); font-size:16px; margin-bottom: 15px;">Need Something specific?</p>
+				<a href="#contact" class="button button--outline">Let's discuss your project</a>
+				</div>
+            </div>
+        </section>
+        <!-- SKILLS  -->
+        <section class="section section--alt" id="skills">
+            <div class="container">
+                <p class="section__label">Skills</p>
+                <h2 class="section__title">Tools I work with</h2>
+
+                <ul class="grid grid--4 list-reset">
+                    <li class="card">
+                        <h3>HTML5</h3>
+                        <p>Semantic, accessible page structure.</p>
+                    </li>
+                    <li class="card">
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts with Flexbox and Grid.</p>
+                    </li>
+                    <li class="card">
+                        <h3>JavaScript</h3>
+                        <p>Interactive features and dynamic web elements.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Git &amp; GitHub</h3>
+                        <p>Version control and project hosting.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- PROJECTS  -->
+       <!-- ============ PROJECTS ============ -->
+        <section class="section" id="works">
+            <div class="container">
+                <p class="section__label">Projects</p>
+                <h2 class="section__title">Selected concept projects</h2>
+                <p class="section__intro">
+                    These are self-initiated projects built to solve real-world business challenges. Each one demonstrates how I approach a brief, design for the user, and write clean code.
+                </p>
+
+                <div class="grid grid--3">
+
+                    <article class="work-card">
+                        <div class="work-card__image">
+                            <img src="images/personal.jpg"
+                                 alt="Screenshot of the personal portfolio website project"
+                                 width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="work-card__content">
+                            <span class="work-card__tag">Personal Brand</span>
+                            <h3>Personal Portfolio</h3>
+                            <p><strong>Goal:</strong> Present a professional's work clearly to potential clients.</p>
+                            <p><strong>Solution:</strong> A responsive one-page site with clear sections and a simple, high-converting contact path.</p>
+                            <ul class="tags">
+                                <li>HTML</li><li>CSS</li>
+                            </ul>
+                            <div class="work-card__links">
+                                <a href="#" class="work-card__link">Live Demo</a>
+                                <a href="#" class="work-card__link">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="work-card">
+                        <div class="work-card__image">
+                            <img src="images/university.jpg"
+                                 alt="Screenshot of the university website project"
+                                 width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="work-card__content">
+                            <span class="work-card__tag">Education</span>
+                            <h3>University Website</h3>
+                            <p><strong>Goal:</strong> Help students find programs and contact details quickly.</p>
+                            <p><strong>Solution:</strong> A responsive multi-section layout with intuitive and easy navigation on mobile devices.</p>
+                            <ul class="tags">
+                                <li>HTML</li><li>CSS</li>
+                            </ul>
+                            <div class="work-card__links">
+                                <a href="#" class="work-card__link">Live Demo</a>
+                                <a href="#" class="work-card__link">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="work-card">
+                        <div class="work-card__image">
+                            <img src="images/business.jpg"
+                                 alt="Screenshot of the small business website project"
+                                 width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="work-card__content">
+                          
+                            <span class="work-card__tag">Local Business</span>
+                            <h3>Small Business Website</h3>
+ <p><strong>Goal:</strong> Show services and encourage local visitors to get in touch.</p>
+                            <p><strong>Solution:</strong> A clean, mobile-first layout with a clear services list and strong calls to action.</p>
+                            <ul class="tags">
+                                <li>HTML</li><li>CSS</li>
+                            </ul>
+                            <div class="work-card__links">
+                                <a href="#" class="work-card__link">Live Demo</a>
+                                <a href="#" class="work-card__link">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+       <!-- ============ PROCESS ============ -->
+        <section class="section section--alt" id="process">
+            <div class="container">
+                <p class="section__label">Process</p>
+                <h2 class="section__title">How we'll work together</h2>
+                <ol class="grid grid--4 list-reset steps">
+                    <li class="card step">
+                        <span class="step__number">01</span>
+                        <h3>Discovery</h3>
+                        <p>We discuss your business goals, target audience, and exactly what your website needs to achieve.</p>
+                    </li>
+                    <li class="card step">
+                        <span class="step__number">02</span>
+                        <h3>Planning</h3>
+                        <p>We map out the website structure and content. Once you approve the plan, we proceed to ensure no surprises.</p>
+                    </li>
+                    <li class="card step">
+                        <span class="step__number">03</span>
+                        <h3>Development</h3>
+                        <p>I build your website using modern, responsive code. I share a private preview link so you can track progress.</p>
+                    </li>
+                    <li class="card step">
+                        <span class="step__number">04</span>
+                        <h3>Testing &amp; Launch</h3>
+                        <p>We test every link and device together, make final refinements, and I help you publish the site live.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+     <!-- ============ CONTACT ============ -->
+        <section class="section" id="contact">
+            <div class="container contact__container">
+
+                <div class="contact__intro">
+                    <p class="section__label">Contact</p>
+                    <h2 class="section__title">Let's talk about your project</h2>
+                    <p class="section__text">
+                        Tell me what you need and I'll reply within 24 hours.
+                    </p>
+
+                    <ul class="contact__details list-reset">
+                        <li>
+                            <strong>Email</strong>
+                            <a href="mailto:shukrishop111@gmail.com">shukrishop111@gmail.com</a>
+                        </li>
+                        <li>
+                            <strong>Location</strong>
+                            <span>Ethiopia (UTC+3)</span>
+                        </li>
+                        <li>
+                            <strong>Socials & Chat</strong>
+                            <span>
+                                <a href="https://t.me/FECc12" target="_blank" rel="noopener noreferrer">Telegram</a> · 
+                                <a href="https://instagram.com/shukrishop" target="_blank" rel="noopener noreferrer">Instagram</a> · 
+                                <a href="https://github.com/shukrishop" target="_blank" rel="noopener noreferrer">GitHub</a> · 
+                                <a href="https://www.linkedin.com/in/indris-shukri-b24264349" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+				
+                <!-- Replace YOUR_FORM_ID with your free Formspree form ID -->
+                <form class="form" action="https://formspree.io/f/xjyynrvk" method="POST">
+                    <div class="form__group">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Your email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="type">Project type</label>
+                        <select id="type" name="project_type">
+                            <option>Landing page</option>
+                            <option>Business website</option>
+                            <option>Personal Brand / Portfolio</option>
+                            <option>Other inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="budget">Estimated budget (USD / ETB)</label>
+                        <select id="budget" name="budget">
+                            <option>Under $500 / ~60,000 ETB</option>
+                            <option>$500 - $1,000 / ~60K - 120K ETB</option>
+                            <option>$1,000 - $2,500 / ~120K - 300K ETB</option>
+                            <option>Not sure yet</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Tell me about your project (goals, timeline, etc.)</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="button button--full">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__copyright">© 2026 Indris Shukri. All rights reserved.</p>
+            <nav aria-label="Footer navigation">
+                <ul class="footer__links list-reset">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#home" class="footer__top">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
