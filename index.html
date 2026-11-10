@@ -340,5 +340,14 @@
             <a href="#home" class="footer__top">Back to top ↑</a>
         </div>
     </footer>
+	<script>
+        const navLinks = document.querySelectorAll('.navbar__link');
+        const navToggle = document.getElementById('nav-toggle');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.checked = false;
+            });
+        });
+    </script>
 </body>
 </html>
